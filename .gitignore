@@ -10,7 +10,7 @@
 
 # production
 /build
-.helpers
+.helpers.js
 # misc
 .DS_Store
 .env.local
