@@ -4,9 +4,7 @@ const RecipeCard = ({ recipe }) => {
         idMeal,
         strMeal,
         strCategory,
-        strInstructions,
         strMealThumb,
-        strTags
     } = recipe;
     
     return (

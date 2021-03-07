@@ -17,9 +17,10 @@ const SearchBar = ({
                 onChange={(event) => setQuery(event.target.value)}
             />   
             <input
-                disabled={isLoading}
+                disabled={isLoading || !query}
                 type="submit"
                 className="btn"
+                value="Search"
             />
         </form>
     )
